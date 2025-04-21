@@ -1,0 +1,31 @@
+2025-04-14 09:15:01 [INFO] Starting application initialization.
+2025-04-14 09:15:02 [DEBUG] Loaded configuration file: config.yaml
+2025-04-14 09:15:03 [INFO] Connecting to database...
+2025-04-14 09:15:04 [INFO] Database connection established successfully.
+2025-04-14 09:15:05 [WARNING] Cache server not reachable. Continuing without cache.
+2025-04-14 09:15:06 [INFO] Initializing service modules.
+2025-04-14 09:15:07 [DEBUG] Service registry loaded with 8 services.
+2025-04-14 09:15:09 [INFO] Starting HTTP server on port 8080
+2025-04-14 09:15:10 [DEBUG] Listening for incoming requests...
+2025-04-14 09:15:11 [INFO] Health check passed.
+2025-04-14 09:15:12 [WARNING] Response time is higher than expected: 850ms
+2025-04-14 09:15:13 [INFO] Received request: GET /api/users
+2025-04-14 09:15:14 [DEBUG] Querying user database for all users.
+2025-04-14 09:15:14 [INFO] Response sent: 200 OK
+2025-04-14 09:15:16 [ERROR]Failed to fetch user settings. Null pointer exception.
+2025-04-14 09:15:17 [DEBUG] Stack trace: java.lang.NullPointerException at com.example.UserService.getSettings(UserService.java:45)
+2025-04-14 09:15:18 [INFO] Request completed: POST /api/login
+2025-04-14 09:15:19 [DEBUG] Auth token generated for user: user123
+2025-04-14 09:15:20 [INFO] Session created for user user123
+2025-04-14 09:15:21 [INFO] Received request: DELETE /api/user/42
+2025-04-14 09:15:22 [WARNING] User 42 does not exist. Skipping delete.
+2025-04-14 09:15:24 [INFO] Scheduled job 'dailyBackup' started.
+2025-04-14 09:15:25 [DEBUG] Dumping database to /backups/db-20250414.sql
+2025-04-14 09:15:27 [INFO] Backup completed successfully.
+2025-04-14 09:15:28 [ERROR]Notification service failed: SMTP connection timeout.
+2025-04-14 09:15:29 [DEBUG] Retrying notification send (attempt 1 of 3)
+2025-04-14 09:15:30 [INFO] User user456 logged out.
+2025-04-14 09:15:31 [WARNING] High memory usage detected: 87%
+2025-04-14 09:15:32 [CRITICAL OutOfMemoryERROR]in analytics engine.
+2025-04-14 09:15:33 [DEBUG] Dumping heap memory for analysis.
+2025-04-14 09:15:35 [INFO] Gracefully shutting down services.

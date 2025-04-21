@@ -1,0 +1,443 @@
+2025-01-01 00:00:00 [INFO] Application started successfully.
+2025-01-01 00:00:01 [EXCEPTION] FileNotFoundException in FileProcessor.java:56
+    at com.example.util.FileProcessor.readFile(FileProcessor.java:56)
+    at com.example.service.FileService.processFile(FileService.java:112)
+    at com.example.task.FileProcessingTask.execute(FileProcessingTask.java:45)
+    Error: File not found at path: /data/config/settings.yaml
+
+2025-01-01 00:01:00 [WARN] High memory usage detected.
+2025-01-01 00:02:00 [ERROR] Database connection failed.
+2025-01-01 00:03:00 [DEBUG] Debugging application flow.
+2025-01-01 00:04:00 [INFO] User logged in: user123.
+2025-01-01 00:05:00 [WARN] Disk space running low.
+2025-01-01 00:06:00 [ERROR] File not found: config.yaml.
+2025-01-01 00:07:00 [INFO] Scheduled task completed.
+2025-01-01 00:08:00 [DEBUG] Cache cleared successfully.
+2025-01-01 00:09:00 [WARN] Deprecated API usage detected.
+2025-01-01 00:15:23 [INFO] Application startup initialized
+2025-01-01 01:30:45 [WARN] Memory usage exceeds 80% threshold: 6.5GB used
+2025-01-01 02:45:12 [ERROR] Failed to connect to database: Connection timeout
+2025-01-01 03:20:33 [DEBUG] Processing batch job ID: BATCH-12345
+2025-01-01 04:10:55 [INFO] User authentication successful: johndoe@example.com
+2025-01-01 05:25:18 [WARN] Disk space running low on /dev/sda1: 85% used
+2025-01-01 06:40:22 [ERROR] API endpoint /api/v1/users returned 500 Internal Server Error
+2025-01-01 07:15:44 [INFO] Scheduled backup completed successfully: 234MB transferred
+2025-01-01 08:30:17 [DEBUG] Cache hit ratio: 78.5%
+2025-01-01 09:45:29 [WARN] Deprecated API endpoint accessed: /api/v1/legacy
+2025-01-01 10:20:51 [ERROR] Failed to process payment transaction ID: TRX-789012
+2025-01-02 00:15:23 [INFO] New user registration: user456@domain.com
+2025-01-02 01:30:45 [WARN] High CPU usage detected: 92% utilization
+2025-01-02 02:45:12 [DEBUG] OAuth token refresh attempted for client ID: CLI-567890
+2025-01-02 03:20:33 [ERROR] File upload failed: Maximum size exceeded (25MB limit)
+2025-01-02 04:10:55 [INFO] Configuration updated: logging level changed to DEBUG
+2025-01-02 05:25:18 [WARN] SSL certificate expiring in 15 days
+2025-01-02 06:40:22 [ERROR] Redis connection lost: Connection refused
+2025-01-02 07:15:44 [DEBUG] Message queue length: 1500 messages
+2025-01-02 08:30:17 [INFO] Automated system health check completed
+2025-01-02 09:45:29 [WARN] Multiple failed login attempts detected: IP 192.168.1.100
+2025-01-02 10:20:51 [ERROR] Elasticsearch cluster status: RED
+2025-01-03 00:15:23 [INFO] Batch process started: Invoice generation
+2025-01-03 01:30:45 [DEBUG] API rate limit: 95/100 requests used
+2025-01-03 02:45:12 [WARN] Load balancer node 2 not responding
+2025-01-03 03:20:33 [ERROR] Database backup failed: Insufficient storage space
+2025-01-03 04:10:55 [INFO] Email notification sent to 1500 subscribers
+2025-01-03 05:25:18 [DEBUG] Cache invalidation triggered for product catalog
+2025-01-03 06:40:22 [WARN] Network latency spike detected: 500ms
+2025-01-03 07:15:44 [ERROR] JWT token validation failed: Token expired
+2025-01-03 08:30:17 [INFO] System update scheduled for maintenance window
+2025-01-03 09:45:29 [DEBUG] Database query optimization completed
+2025-01-03 10:20:51 [WARN] Session timeout threshold reached: user789
+2025-01-04 00:15:23 [ERROR] Kubernetes pod crash: service-backend-pod-1
+2025-01-04 01:30:45 [INFO] Data migration started: Phase 1/3
+2025-01-04 02:45:12 [DEBUG] WebSocket connection established: client_id=WS123
+2025-01-04 03:20:33 [WARN] API version v1 deprecation notice
+2025-01-04 04:10:55 [ERROR] RabbitMQ queue overflow: messages dropped
+2025-01-04 05:25:18 [INFO] Backup retention policy updated: 90 days
+2025-01-04 06:40:22 [DEBUG] CORS preflight request processed
+2025-01-04 07:15:44 [WARN] Duplicate transaction detected: TXN-456789
+2025-01-04 08:30:17 [ERROR] LDAP authentication service unreachable
+2025-01-04 09:45:29 [INFO] CDN cache purge completed
+2025-01-04 10:20:51 [DEBUG] GraphQL query complexity: 150 points
+2025-01-05 00:15:23 [WARN] Redis cache hit ratio below threshold: 65%
+2025-01-05 01:30:45 [ERROR] Stripe API webhook delivery failed
+2025-01-05 02:45:12 [INFO] User password reset requested: user234
+2025-01-05 03:20:33 [DEBUG] OAuth2 refresh token issued
+2025-01-05 04:10:55 [WARN] File system permissions mismatch detected
+2025-01-05 05:25:18 [ERROR] Microservice communication timeout
+2025-01-05 06:40:22 [INFO] Database index optimization completed
+2025-01-05 07:15:44 [DEBUG] Session cleanup job started
+2025-01-05 08:30:17 [WARN] API rate limit approaching: 90% consumed
+2025-01-05 09:45:29 [ERROR] SSL certificate validation failed
+2025-01-05 10:20:51 [INFO] Automated backup verification completed
+2025-01-06 00:15:23 [DEBUG] Cache warming process initiated
+2025-01-06 01:30:45 [WARN] Database connection pool near capacity
+2025-01-06 02:45:12 [ERROR] Push notification delivery failed
+2025-01-06 03:20:33 [INFO] User profile updated: user567
+2025-01-06 04:10:55 [DEBUG] API request validation completed
+2025-01-06 05:25:18 [WARN] Disk I/O performance degradation detected
+2025-01-06 06:40:22 [ERROR] Configuration file parse error
+2025-01-06 07:15:44 [INFO] System metrics collection started
+2025-01-06 08:30:17 [DEBUG] Database deadlock detected and resolved
+2025-01-06 09:45:29 [WARN] Memory leak detected in module: UserService
+2025-01-06 10:20:51 [ERROR] AWS S3 bucket access denied
+2025-01-07 00:15:23 [INFO] Scheduled task queue processed
+2025-01-07 01:30:45 [DEBUG] IP whitelist updated
+2025-01-07 02:45:12 [WARN] Database replication lag: 5 seconds
+2025-01-07 03:20:33 [ERROR] Email service provider connection failed
+2025-01-07 04:10:55 [INFO] New feature flag enabled: dark-mode
+2025-01-07 05:25:18 [DEBUG] User session validated
+2025-01-07 06:40:22 [WARN] API endpoint response time degradation
+2025-01-07 07:15:44 [ERROR] Maximum retry attempts reached: job_id=789
+2025-01-07 08:30:17 [INFO] Data archival process completed
+2025-01-07 09:45:29 [DEBUG] Security audit log generated
+2025-01-07 10:20:51 [WARN] Temporary file cleanup pending
+2025-01-08 00:15:23 [ERROR] Third-party API integration failed
+2025-01-08 01:30:45 [INFO] System configuration backup created
+2025-01-08 02:45:12 [DEBUG] Database index fragmentation analysis
+2025-01-08 03:20:33 [WARN] Cache invalidation broadcast failed
+2025-01-08 04:10:55 [ERROR] User session verification failed
+2025-01-08 05:25:18 [INFO] Log rotation completed successfully
+2025-01-08 06:40:22 [DEBUG] Transaction rollback performed
+2025-01-08 07:15:44 [WARN] SQL query timeout threshold reached
+2025-01-08 08:30:17 [ERROR] File encryption process failed
+2025-01-08 09:45:29 [INFO] API documentation updated
+2025-01-08 10:20:51 [DEBUG] Memory allocation optimized
+2025-01-09 00:15:23 [WARN] Concurrent user limit approaching
+2025-01-09 01:30:45 [ERROR] Backup integrity check failed
+2025-01-09 02:45:12 [INFO] Service discovery update completed
+2025-01-09 03:20:33 [DEBUG] Rate limiter configuration updated
+2025-01-09 04:10:55 [WARN] Invalid login attempt pattern detected
+2025-01-09 05:25:18 [ERROR] Database migration script error
+2025-01-09 06:40:22 [INFO] User account deactivated: user890
+2025-01-09 07:15:44 [DEBUG] API request trace logged
+2025-01-09 08:30:17 [WARN] System resource allocation warning
+2025-01-09 09:45:29 [ERROR] Message queue consumer failed
+2025-01-09 10:20:51 [INFO] Security patch applied successfully
+2025-01-10 00:15:23 [DEBUG] Database connection pool recycled
+2025-01-10 01:30:45 [WARN] File system quota nearly full
+2025-01-10 02:45:12 [ERROR] Authentication service timeout
+2025-01-10 03:20:33 [INFO] Batch job queue processed
+2025-01-10 04:10:55 [DEBUG] Cache consistency check completed
+2025-01-10 05:25:18 [WARN] API versioning conflict detected
+2025-01-10 06:40:22 [ERROR] Database deadlock timeout
+2025-01-10 07:15:44 [INFO] System health metrics collected
+2025-01-10 08:30:17 [DEBUG] User permission cache updated
+2025-01-10 09:45:29 [WARN] Network partition detected
+2025-01-10 10:20:51 [ERROR] Configuration validation failed
+2025-01-11 00:15:23 [INFO] Data synchronization completed
+2025-01-11 01:30:45 [DEBUG] Authentication token refreshed
+2025-01-11 02:45:12 [WARN] Cache miss rate increasing
+2025-01-11 03:20:33 [ERROR] Scheduled task execution failed
+2025-01-11 04:10:55 [INFO] User group permission updated
+2025-01-11 05:25:18 [DEBUG] Database query plan optimized
+2025-01-11 06:40:22 [WARN] Session cookie validation failed
+2025-01-11 07:15:44 [ERROR] File upload virus scan failed
+2025-01-11 08:30:17 [INFO] API rate limit reset
+2025-01-11 09:45:29 [DEBUG] WebSocket heartbeat maintained
+2025-01-11 10:20:51 [WARN] Database connection timeout risk
+2025-01-12 00:15:23 [ERROR] Cache coherency violation
+2025-01-12 01:30:45 [INFO] System configuration validated
+2025-01-12 02:45:12 [DEBUG] Message queue rebalanced
+2025-01-12 03:20:33 [WARN] API deprecation notice published
+2025-01-12 04:10:55 [ERROR] OAuth token revocation failed
+2025-01-12 05:25:18 [INFO] Database maintenance completed
+2025-01-12 06:40:22 [DEBUG] Security token generated
+2025-01-12 07:15:44 [WARN] Load balancer health check failed
+2025-01-12 08:30:17 [ERROR] Data integrity check failed
+2025-01-12 09:45:29 [INFO] Cache warming completed
+2025-01-12 10:20:51 [DEBUG] API request rate analyzed
+2025-01-13 00:15:23 [WARN] SSL handshake timeout
+2025-01-13 01:30:45 [ERROR] Database schema validation error
+2025-01-13 02:45:12 [INFO] User session cleanup completed
+2025-01-13 03:20:33 [DEBUG] Configuration reload triggered
+2025-01-13 04:10:55 [WARN] File system mount point error
+2025-01-13 05:25:18 [ERROR] Message broker connection lost
+2025-01-13 06:40:22 [INFO] System backup verified
+2025-01-13 07:15:44 [DEBUG] Database index rebuilt
+2025-01-13 08:30:17 [WARN] API gateway timeout
+2025-01-13 09:45:29 [ERROR] User authentication rate limit exceeded
+2025-01-13 10:20:51 [INFO] Log aggregation completed
+2025-01-14 00:15:23 [DEBUG] Cache eviction policy updated
+2025-01-14 01:30:45 [WARN] Database transaction timeout
+2025-01-14 02:45:12 [ERROR] Service discovery failure
+2025-01-14 03:20:33 [INFO] User password policy updated
+2025-01-14 04:10:55 [DEBUG] API response cached
+2025-01-14 05:25:18 [WARN] Memory fragmentation detected
+2025-01-14 06:40:22 [ERROR] File system permission denied
+2025-01-14 07:15:44 [INFO] System metrics exported
+2025-01-14 08:30:17 [DEBUG] Database vacuum completed
+2025-01-14 09:45:29 [WARN] Cache synchronization delay
+2025-01-14 10:20:51 [ERROR] API rate limit exceeded
+2025-01-15 00:15:23 [INFO] Backup rotation completed
+2025-01-15 01:30:45 [DEBUG] User session validated
+2025-01-15 02:45:12 [WARN] Database connection pool exhausted
+2025-01-15 03:20:33 [ERROR] Configuration file not found
+2025-01-15 04:10:55 [INFO] System update verification complete
+2025-01-15 05:25:18 [DEBUG] Cache hit ratio optimized
+2025-01-15 06:40:22 [WARN] API endpoint deprecated
+2025-01-15 07:15:44 [ERROR] Database backup corruption
+2025-01-15 08:30:17 [INFO] Security audit completed
+2025-01-15 09:45:29 [DEBUG] Message queue purged
+2025-01-15 10:20:51 [WARN] File system quota exceeded
+2025-01-16 00:15:23 [ERROR] Authentication provider offline
+2025-01-16 01:30:45 [INFO] Database optimization completed
+2025-01-16 02:45:12 [DEBUG] Cache partition rebalanced
+2025-01-16 03:20:33 [WARN] API request validation failed
+2025-01-16 04:10:55 [ERROR] Session store corruption detected
+2025-01-16 05:25:18 [INFO] Configuration backup created
+2025-01-16 06:40:22 [DEBUG] Database connection verified
+2025-01-16 07:15:44 [WARN] Memory leak in cache manager
+2025-01-16 08:30:17 [ERROR] File upload quota exceeded
+2025-01-16 09:45:29 [INFO] System health check passed
+2025-01-16 10:20:51 [DEBUG] API documentation generated
+2025-01-17 00:15:23 [WARN] Database replication failed
+2025-01-17 01:30:45 [ERROR] Cache invalidation error
+2025-01-17 02:45:12 [INFO] User authentication updated
+2025-01-17 03:20:33 [DEBUG] Message routing optimized
+2025-01-17 04:10:55 [WARN] System resource depletion
+2025-01-17 05:25:18 [ERROR] API gateway connection lost
+2025-01-17 06:40:22 [INFO] Database backup scheduled
+2025-01-17 07:15:44 [DEBUG] Security token validated
+2025-01-17 08:30:17 [WARN] File system corruption detected
+2025-01-17 09:45:29 [ERROR] Configuration syntax error
+2025-01-17 10:20:51 [INFO] Cache preload completed
+2025-01-18 00:15:23 [DEBUG] Database query cached
+2025-01-18 01:30:45 [WARN] API response time degraded
+2025-01-18 02:45:12 [ERROR] Message queue overflow
+2025-01-18 03:20:33 [INFO] System metric threshold updated
+2025-01-18 04:10:55 [DEBUG] User session extended
+2025-01-18 05:25:18 [WARN] Database index fragmentation
+2025-01-18 06:40:22 [ERROR] Authentication token expired
+2025-01-18 07:15:44 [INFO] Configuration validation passed
+2025-01-18 08:30:17 [DEBUG] Cache compression optimized
+2025-01-18 09:45:29 [WARN] API version mismatch
+2025-01-18 10:20:51 [ERROR] Database connection refused
+2025-01-19 00:15:23 [INFO] System backup initiated
+2025-01-19 01:30:45 [DEBUG] Message routing updated
+2025-01-19 02:45:12 [WARN] Cache eviction triggered
+2025-01-19 03:20:33 [ERROR] File system mount failed
+2025-01-19 04:10:55 [INFO] User permission cache updated
+2025-01-19 05:25:18 [DEBUG] API request logged
+2025-01-19 06:40:22 [WARN] Database deadlock detected
+2025-01-19 07:15:44 [ERROR] Configuration load failed
+2025-01-19 08:30:17 [INFO] Cache statistics collected
+2025-01-19 09:45:29 [DEBUG] Security audit triggered
+2025-01-19 10:20:51 [WARN] Message broker overloaded
+2025-01-20 00:15:23 [ERROR] API rate limit violation
+2025-01-20 01:30:45 [INFO] Database vacuum scheduled
+2025-01-20 02:45:12 [DEBUG] Cache partition mapped
+2025-01-20 03:20:33 [WARN] File upload failed
+2025-01-20 04:10:55 [ERROR] Session validation error
+2025-01-20 05:25:18 [INFO] System metric export completed
+2025-01-20 06:40:22 [DEBUG] Message queue statistics
+2025-01-20 07:15:44 [WARN] Database connection leak
+2025-01-20 08:30:17 [ERROR] Cache coherency failure
+2025-01-20 09:45:29 [INFO] API documentation updated
+2025-01-20 10:20:51 [DEBUG] User authentication attempt
+2025-01-21 00:15:23 [WARN] Configuration version mismatch
+2025-01-21 01:30:45 [ERROR] File system quota critical
+2025-01-21 02:45:12 [INFO] Database optimization scheduled
+2025-01-21 03:20:33 [DEBUG] Cache replication status
+2025-01-21 04:10:55 [WARN] API endpoint timeout
+2025-01-21 05:25:18 [ERROR] Message routing failed
+2025-01-21 06:40:22 [INFO] System backup completed
+2025-01-21 07:15:44 [DEBUG] Security token issued
+2025-01-21 08:30:17 [WARN] Database schema mismatch
+2025-01-21 09:45:29 [ERROR] Cache partition failure
+2025-01-21 10:20:51 [INFO] User session terminated
+2025-01-22 00:15:23 [DEBUG] API rate limit reset
+2025-01-22 01:30:45 [WARN] File system read error
+2025-01-22 02:45:12 [ERROR] Configuration parse failed
+2025-01-22 03:20:33 [INFO] Cache cleanup completed
+2025-01-22 04:10:55 [DEBUG] Message queue rebalanced
+2025-01-22 05:25:18 [WARN] Database backup warning
+2025-01-22 06:40:22 [ERROR] API authentication failed
+2025-01-22 07:15:44 [INFO] System metric threshold updated
+2025-01-22 08:30:17 [DEBUG] User permission verified
+2025-01-22 09:45:29 [WARN] Cache memory low
+2025-01-22 10:20:51 [ERROR] Message broker failed
+2025-01-23 00:15:23 [INFO] Database maintenance scheduled
+2025-01-23 01:30:45 [DEBUG] Configuration reload complete
+2025-01-23 02:45:12 [WARN] API request malformed
+2025-01-23 03:20:33 [ERROR] File upload virus detected
+2025-01-23 04:10:55 [INFO] Cache statistics updated
+2025-01-23 05:25:18 [DEBUG] Security scan initiated
+2025-01-23 06:40:22 [WARN] Database connection timeout
+2025-01-23 07:15:44 [ERROR] System resource exhausted
+2025-01-23 08:30:17 [INFO] Message routing updated
+2025-01-23 09:45:29 [DEBUG] API endpoint monitored
+2025-01-23 10:20:51 [WARN] Cache replication lag
+2025-01-24 00:15:23 [ERROR] File system write failed
+2025-01-24 01:30:45 [INFO] Configuration backup verified
+2025-01-24 02:45:12 [DEBUG] User session created
+2025-01-24 03:20:33 [WARN] Database query timeout
+2025-01-24 04:10:55 [ERROR] API version unsupported
+2025-01-24 05:25:18 [INFO] Cache partition optimized
+2025-01-24 06:40:22 [DEBUG] Message queue monitored
+2025-01-24 07:15:44 [WARN] Security policy violation
+2025-01-24 08:30:17 [ERROR] System update failed
+2025-01-24 09:45:29 [INFO] Database index updated
+2025-01-24 10:20:51 [DEBUG] Cache hit recorded
+2025-01-25 00:15:23 [WARN] API response invalid
+2025-01-25 01:30:45 [ERROR] File permission error
+2025-01-25 02:45:12 [INFO] Configuration validated
+2025-01-25 03:20:33 [DEBUG] Message routing verified
+2025-01-25 04:10:55 [WARN] Database connection dropped
+2025-01-25 05:25:18 [ERROR] Cache out of memory
+2025-01-25 06:40:22 [INFO] System metric collected
+2025-01-25 07:15:44 [DEBUG] User authorization checked
+2025-01-25 08:30:17 [WARN] API request rejected
+2025-01-25 09:45:29 [ERROR] Message queue timeout
+2025-01-25 10:20:51 [INFO] File cleanup completed
+2025-01-26 00:15:23 [DEBUG] Configuration applied
+2025-01-26 01:30:45 [WARN] Database deadlock timeout
+2025-01-26 02:45:12 [ERROR] Cache synchronization failed
+2025-01-26 03:20:33 [INFO] Security update applied
+2025-01-26 04:10:55 [DEBUG] API request traced
+2025-01-26 05:25:18 [WARN] Message routing error
+2025-01-26 06:40:22 [ERROR] File system full
+2025-01-26 07:15:44 [INFO] Database backup verified
+2025-01-26 08:30:17 [DEBUG] Cache partition allocated
+2025-01-26 09:45:29 [WARN] Configuration mismatch
+2025-01-26 10:20:51 [ERROR] API service unavailable
+2025-01-27 00:15:23 [INFO] System health verified
+2025-01-27 01:30:45 [DEBUG] User session expired
+2025-01-27 02:45:12 [WARN] Database connection error
+2025-01-27 03:20:33 [ERROR] Cache corruption detected
+2025-01-27 04:10:55 [INFO] Message queue cleared
+2025-01-27 05:25:18 [DEBUG] Security token refreshed
+2025-01-27 06:40:22 [WARN] File upload interrupted
+2025-01-27 07:15:44 [ERROR] Configuration missing
+2025-01-27 08:30:17 [INFO] API documentation generated
+2025-01-27 09:45:29 [DEBUG] Database query optimized
+2025-01-27 10:20:51 [WARN] Cache eviction triggered
+2025-01-28 00:15:23 [ERROR] Message broker offline
+2025-01-28 01:30:45 [INFO] System backup scheduled
+2025-01-28 02:45:12 [DEBUG] User permission updated
+2025-01-28 03:20:33 [WARN] API gateway error
+2025-01-28 04:10:55 [ERROR] File system readonly
+2025-01-28 05:25:18 [INFO] Configuration applied
+2025-01-28 06:40:22 [DEBUG] Cache statistics generated
+2025-01-28 07:15:44 [WARN] Database replication error
+2025-01-28 08:30:17 [ERROR] Security breach detected
+2025-01-28 09:45:29 [INFO] Message routing optimized
+2025-01-28 10:20:51 [DEBUG] API rate monitoring
+2025-01-29 00:15:23 [WARN] Cache memory allocation
+2025-01-29 01:30:45 [ERROR] File upload failed
+2025-01-29 02:45:12 [INFO] System metric exported
+2025-01-29 03:20:33 [DEBUG] Configuration validated
+2025-01-29 04:10:55 [WARN] Database backup error
+2025-01-29 05:25:18 [ERROR] API request timeout
+2025-01-29 06:40:22 [INFO] Cache optimization complete
+2025-01-29 07:15:44 [DEBUG] Message queue status
+2025-01-29 08:30:17 [WARN] Security token invalid
+2025-01-29 09:45:29 [ERROR] File system error
+2025-01-29 10:20:51 [INFO] Database maintenance complete
+2025-01-30 00:15:23 [DEBUG] User authentication success
+2025-01-30 01:30:45 [WARN] Configuration error
+2025-01-30 02:45:12 [ERROR] Cache partition error
+2025-01-30 03:20:33 [INFO] API version updated
+2025-01-30 04:10:55 [DEBUG] Message routing checked
+2025-01-30 05:25:18 [WARN] System resource warning
+2025-01-30 06:40:22 [ERROR] Database query failed
+2025-01-30 07:15:44 [INFO] File cleanup scheduled
+2025-01-30 08:30:17 [DEBUG] Cache replication status
+2025-01-30 09:45:29 [WARN] Security scan warning
+2025-01-30 10:20:51 [ERROR] API limit reached
+2025-01-31 00:15:23 [INFO] Configuration backup created
+2025-01-31 01:30:45 [DEBUG] Database connection pool
+2025-01-31 02:45:12 [WARN] Message queue warning
+2025-01-31 03:20:33 [ERROR] File permission denied
+2025-01-31 04:10:55 [INFO] Cache statistics updated
+2025-01-31 05:25:18 [DEBUG] System health check
+2025-01-31 06:40:22 [WARN] API deprecation warning
+2025-01-31 07:15:44 [ERROR] Security policy error
+2025-01-31 08:30:17 [INFO] Database optimization done
+2025-01-31 09:45:29 [DEBUG] Message routing verified
+2025-01-31 10:20:51 [WARN] Cache memory warning
+2025-02-01 00:15:23 [EXCEPTION] 
+ in UserService.java:125
+    at com.example.service.UserService.validateUser(UserService.java:125)
+    at com.example.controller.AuthController.login(AuthController.java:45)
+    at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+    Error: Attempted to access null user object
+
+2025-02-01 01:30:45 [EXCEPTION] SQLException in DatabaseConnector.java:78
+    at com.example.db.DatabaseConnector.executeQuery(DatabaseConnector.java:78)
+    at com.example.service.DataService.fetchRecords(DataService.java:156)
+    at com.example.controller.DataController.getRecords(DataController.java:34)
+    Error: ORA-00001: Unique constraint (USERS.EMAIL_UK) violated
+
+2025-02-01 02:45:12 [EXCEPTION] OutOfMemoryError in CacheManager.java:234
+    at com.example.cache.CacheManager.addToCache(CacheManager.java:234)
+    at com.example.service.CacheService.cacheData(CacheService.java:89)
+    at com.example.controller.CacheController.updateCache(CacheController.java:67)
+    Error: Java heap space exceeded: Required 2GB, Available: 512MB
+
+2025-02-01 04:10:55 [EXCEPTION] SecurityException in AuthenticationManager.java:167
+    at com.example.security.AuthenticationManager.validateToken(AuthenticationManager.java:167)
+    at com.example.filter.SecurityFilter.doFilter(SecurityFilter.java:89)
+    at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+    Error: Invalid JWT token: Token has expired
+
+2025-02-01 05:25:18 [EXCEPTION] IllegalArgumentException in ValidationService.java:92
+    at com.example.service.ValidationService.validateInput(ValidationService.java:92)
+    at com.example.controller.InputController.processRequest(InputController.java:78)
+    at com.example.api.RequestHandler.handle(RequestHandler.java:145)
+    Error: Invalid input parameter: userId must be positive integer
+
+2025-02-01 06:40:22 [EXCEPTION] ConcurrentModificationException in CollectionManager.java:178
+    at java.util.ArrayList$Itr.checkForComodification(ArrayList.java:1013)
+    at java.util.ArrayList$Itr.next(ArrayList.java:967)
+    at com.example.util.CollectionManager.processItems(CollectionManager.java:178)
+    Error: Collection was modified while being iterated
+
+2025-02-01 07:15:44 [EXCEPTION] IOException in NetworkClient.java:234
+    at com.example.network.NetworkClient.sendRequest(NetworkClient.java:234)
+    at com.example.service.ApiService.callExternalApi(ApiService.java:156)
+    at com.example.controller.ApiController.makeRequest(ApiController.java:89)
+    Error: Connection refused: connect to api.example.com:443
+
+2025-02-01 08:30:17 [EXCEPTION] ClassNotFoundException in PluginLoader.java:145
+    at com.example.plugin.PluginLoader.loadClass(PluginLoader.java:145)
+    at com.example.service.PluginService.initializePlugin(PluginService.java:67)
+    at com.example.core.PluginManager.start(PluginManager.java:89)
+    Error: Could not find class: com.example.plugins.CustomPlugin
+
+2025-02-01 09:45:29 [EXCEPTION] RuntimeException in TaskExecutor.java:312
+    at com.example.task.TaskExecutor.executeTask(TaskExecutor.java:312)
+    at com.example.service.SchedulerService.runTask(SchedulerService.java:178)
+    at com.example.core.TaskManager.processTask(TaskManager.java:234)
+    Error: Task execution failed: Maximum retry attempts exceeded
+
+2025-02-01 10:20:51 [EXCEPTION] IllegalStateException in ConnectionPool.java:189
+    at com.example.db.ConnectionPool.getConnection(ConnectionPool.java:189)
+    at com.example.service.DatabaseService.connect(DatabaseService.java:145)
+    at com.example.core.DatabaseManager.initialize(DatabaseManager.java:78)
+    Error: Connection pool is not initialized
+
+2025-02-02 00:15:23 [EXCEPTION] UnsupportedOperationException in CacheImpl.java:256
+    at com.example.cache.CacheImpl.modifyCache(CacheImpl.java:256)
+    at com.example.service.CacheService.updateCache(CacheService.java:167)
+    at com.example.controller.CacheController.modify(CacheController.java:89)
+    Error: Read-only cache modification attempted
+
+2025-02-02 01:30:45 [EXCEPTION] TimeoutException in AsyncProcessor.java:178
+    at com.example.async.AsyncProcessor.processRequest(AsyncProcessor.java:178)
+    at com.example.service.AsyncService.handleRequest(AsyncService.java:234)
+    at com.example.controller.AsyncController.process(AsyncController.java:156)
+    Error: Operation timed out after 30 seconds
+
+2025-02-02 02:45:12 [EXCEPTION] ArrayIndexOutOfBoundsException in DataProcessor.java:145
+    at com.example.util.DataProcessor.processArray(DataProcessor.java:145)
+    at com.example.service.ProcessingService.handleData(ProcessingService.java:89)
+    at com.example.task.DataProcessingTask.execute(DataProcessingTask.java:67)
+    Error: Index 10 out of bounds for length 10
+
+2025-02-02 03:20:33 [EXCEPTION] NumberFormatException in RequestParser.java:89
+    at com.example.util.RequestParser.parseValue(RequestParser.java:89)
+    at com.example.service.ParserService.parseRequest(ParserService.java:167)
+    at com.example.controller.RequestController.handle(RequestController.java:145)
+    Error: For input string: "abc" - expected integer
+2025-04-14 01:30:45 [ERROR] Database schema validation error
+2025-04-14 12:00:02 [ERROR]  Security breach detected

@@ -1,0 +1,7 @@
+streamlit
+langchain
+langchain-community
+pandas
+regex
+chromadb
+tzdata
