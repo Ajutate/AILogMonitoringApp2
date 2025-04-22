@@ -9,7 +9,7 @@ An intelligent application for analyzing application logs using AI. This tool le
 - **Vector Database Viewer**: Explore the vector database contents directly in the UI
 - **Source Verification**: View the actual log entries that were used to generate answers
 - **Time-Based Filtering**: Filter logs by custom date ranges, specific months, or relative time periods
-
+![Screenshot](ApplicationLogAIAnalysis3.jpg)
 ## Examples of Queries
 
 - "How many ERROR logs are there?"
@@ -64,4 +64,3 @@ An intelligent application for analyzing application logs using AI. This tool le
 - **LLM**: llama3.2 via Ollama
 - **UI Framework**: Streamlit
 
-![Screenshot](ApplicationLogAIAnalysis3.jpg)
