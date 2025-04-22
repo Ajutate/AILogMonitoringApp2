@@ -39,7 +39,7 @@ def build_metadata_filter(query: str):
         return {"timestamp_unix": {"$gte": cutoff_unix}}
 
     # Handle specific month queries like "January logs" or "logs from March"
-    month_pattern = r"(?:logs from|logs in|for|from|in)\s+(?:the month of\s+)?(\w+)(?:\s+(\d{4}))?"
+    month_pattern = r"(?:logs (?:from|in|of)|for|from|in|of)\s+(?:the month of\s+)?(\w+)(?:\s+month)?(?:\s+(\d{4}))?"
     month_match = re.search(month_pattern, query.lower())
     if month_match:
         month_name = month_match.group(1).capitalize()
