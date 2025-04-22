@@ -63,3 +63,5 @@ An intelligent application for analyzing application logs using AI. This tool le
 - **Embeddings**: mxbai-embed-large model via Ollama
 - **LLM**: llama3.2 via Ollama
 - **UI Framework**: Streamlit
+
+![Screenshot](ApplicationLogAIAnalysis3.jpg)
