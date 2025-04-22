@@ -4,6 +4,8 @@ from langchain_community.vectorstores import Chroma
 from langchain_community.embeddings import OllamaEmbeddings
 from langchain_community.llms import Ollama
 from langchain.chains import RetrievalQA
+from langchain.retrievers import ContextualCompressionRetriever
+from langchain.retrievers.document_compressors import LLMChainExtractor
 
 def get_qa_chain(metadata_filter: dict = None):
     prompt = PromptTemplate.from_template("""
@@ -36,16 +38,23 @@ Your Answer (remember to ONLY use log entries that appear in the context above):
     # Debug: print collection info
     print(f"Vector DB collection info: {vectordb._collection.count()} documents")
     
-    # Fix: Only use filter if it's not empty
-    search_kwargs = {"k": 20}
-    if metadata_filter and len(metadata_filter) > 0:
-        search_kwargs["filter"] = metadata_filter
-        print(f"Using filter: {metadata_filter}")
-    else:
-        print("No filter applied")
+    # Enhanced search configuration for better relevance
+    search_kwargs = {
+        "k": 50,  # Initial candidate pool
+        "score_threshold": 0.5,  # Filter out less relevant documents
+        "fetch_k": 100,  # Fetch more candidates initially for MMR to choose from
+        "lambda_mult": 0.7,  # Balance between relevance (1.0) and diversity (0.0)
+        "filter": metadata_filter if metadata_filter and len(metadata_filter) > 0 else None
+    }
     
-    # Create retriever with the search kwargs
-    retriever = vectordb.as_retriever(search_kwargs=search_kwargs)
+    # Use MMR (Maximum Marginal Relevance) search for more diverse results
+    retriever = vectordb.as_retriever(
+        search_type="mmr",  # Use Maximum Marginal Relevance
+        search_kwargs=search_kwargs
+    )
+    
+    # Compression to extract the most relevant parts of documents
+    llm = Ollama(model="llama3.2")
     
     # Debug: try a simple retrieval to verify it works
     if metadata_filter:
@@ -54,14 +63,19 @@ Your Answer (remember to ONLY use log entries that appear in the context above):
             print(f"Retrieved {len(test_docs)} documents with filter")
             if test_docs:
                 print(f"Sample timestamp: {test_docs[0].metadata.get('timestamp', 'No timestamp')}")
+                # Print score information if available
+                if hasattr(test_docs[0], 'score'):
+                    print(f"Score of first document: {test_docs[0].score}")
         except Exception as e:
             print(f"Error testing retriever: {e}")
     
-    llm = Ollama(model="llama3.2")
     return RetrievalQA.from_chain_type(
         llm=llm,
         retriever=retriever,
         chain_type="stuff",
-        chain_type_kwargs={"prompt": prompt},
+        chain_type_kwargs={
+            "prompt": prompt,
+            "document_separator": "\n\n",  # Clear separation between log entries
+        },
         return_source_documents=True,  # Return source documents for verification
     )
