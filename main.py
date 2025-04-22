@@ -211,10 +211,13 @@ with tab1:
             # Display source documents for verification
             if source_docs:
                 with st.expander("View Source Log Entries", expanded=False):
-                    st.write("These are the actual log entries used to generate the answer:")
+                    #st.write("These are the actual log entries used to generate the answer:")
+                    print("These are the actual log entries used to generate the answer:")
                     for i, doc in enumerate(source_docs):
-                        st.markdown(f"**Log Entry {i+1}:**")
-                        st.code(doc.page_content, language="text")
+                        #st.markdown(f"**Log Entry {i+1}:**")
+                        #st.code(doc.page_content, language="text")
+                        print(f"**Log Entry {i+1}:**")
+                        print(doc.page_content)
             else:
                 st.info("No source log entries were retrieved for this query.")
 
