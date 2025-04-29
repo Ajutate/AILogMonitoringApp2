@@ -208,6 +208,10 @@
     at com.example.service.AsyncService.handleRequest(AsyncService.java:234)
     at com.example.controller.AsyncController.process(AsyncController.java:156)
     Error: Operation timed out after 30 seconds
+2025-03-25 19:33:21 [EXCEPTION] TimeoutException in AsyncProcessor.java:178
+    at com.example.async.AsyncProcessor.processRequest(AsyncProcessor.java:178)
+    at com.example.service.AsyncService.handleRequest(AsyncService.java:234)
+    at com.example.controller.AsyncController.process(AsyncController.java:156)
 2025-04-14 01:30:45 [ERROR] Database schema validation error
 2025-04-14 12:00:02 [ERROR]  Security breach detected
 2025-04-20 19:33:21 [EXCEPTION] TimeoutException in AsyncProcessor.java:178
